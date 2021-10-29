@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&display=swap");
+
+body {
+  font-family: "Work Sans", sans-serif;
+  background: rgb(6, 75, 92);
+  background: linear-gradient(
+    90deg,
+    rgba(6, 75, 92, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.container {
+  color: #1c1c1c;
+  background: #ecf4ff;
+  margin: 100px;
+  box-shadow: 10px 10px 10px #0e1d2f;
+  border-radius: 30px;
+  padding: 64px;
+}
+
+.imagem {
+  max-height: 160px;
+  box-shadow: 5px 5px 5px #0e1d2f;
+  border-radius: 460px;
+}
+
+.textos {
+  margin-left: 16px;
+  text-shadow: -1px -1px 0px #708090, -1px 1px 0px #708090, 1px -1px 0px #708090,
+    1px 0px 0px #708090;
+}
+
+.textos h1 {
+  font-weight: 500;
+  font-size: 36px;
+}
+
+.textos h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #ecf4ff;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container3 {
+  background: rgb(13, 145, 156);
+  background: linear-gradient(
+    90deg,
+    rgba(13, 145, 156, 1) 0%,
+    rgba(0, 255, 235, 1) 100%
+  );
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px #0e1d2f;
+  margin-top: 32px;
+  padding: 200px;
+}
+
+.container3 ul {
+  position: relative;
+  top: -150px;
+  align-items: center;
+  list-style: none;
+  text-shadow: -1px -1px 0px #708090, -1px 1px 0px #708090, 1px -1px 0px #708090,
+    1px 0px 0px #708090;
+  font-size: 40px;
+}
+
+.logos {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60px;
+}
+
+.projetos-item {
+  align-items: center;
+  list-style-type: none;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.projetos-item a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);
+}
+
+.dark .container {
+  background: #333439;
+  color: #f6f6f6;
+}
+
+.dark .container3 {
+  background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);
+}
+
+.dark .tema button {
+  background: #1c1c1c;
+  color: #ffffff;
+  border: 2px solid #f7f7f7;
+}
+
+.dark .projetos {
+  color: #1c1c1c;
+}
